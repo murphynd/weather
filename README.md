@@ -1,26 +1,20 @@
 # _OpenWeather API_
 
-#### _{Brief description of application}, Sept 8, 2020_
+#### _Enter zip code to see the local weather, Sept 8, 2020_
 
 #### By _**Natalie Murphy, Garrett P Brown, Ophelia Swen**_
 
 ## Description
 
-_{This application }_
+_app using OpenWeather API _
 
 ## Setup/Installation Requirements
 
-- _This is a great place_
-- _to list setup instructions_
-- _in a simple_
-- _easy-to-understand_
-- _format_
+- Clone this project
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+- open in VSCode or text editor
 
-## Specs
-
-## API
+### API
 
 - Visit https://openweathermap.org/
 - Create an account
@@ -28,20 +22,6 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 - Create a .env file after download of this program
 - Place "process.env.API_KEY = YOUR KEY" in .env file
 
-## Known Bugs
+* open in HTML
 
-_{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }_
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}_
-
-## Technologies Used
-
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
-
-### License
-
-_{Determine the license under which this application can be used. See below for more details on licensing.}_
-
-Copyright (c) 2016 **_{Natalie Murphy, Garrett P Brown, Ophelia Swen}_**
+Copyright (c) 2020 **_{Natalie Murphy, Garrett P Brown, Ophelia Swen}_**
