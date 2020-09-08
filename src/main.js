@@ -8,11 +8,11 @@ import { temp } from "./js/one.js";
 
 $(document).ready(function () {
   $("#weatherLocation").click(function () {
-    const city = $("#location").val();
-    $("#location").val("");
+    const zipcode = $("#zip").val();
+    $("#zip").val("");
 
     let request = new XMLHttpRequest();
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}`;
+    const url = `http://api.openweathermap.org/data/2.5/weather?zip=${zipcode}&appid=${process.env.API_KEY}`;
     console.log(process.env.API_KEY);
 
     request.onreadystatechange = function () {
@@ -26,11 +26,9 @@ $(document).ready(function () {
     request.send();
 
     function getElements(response) {
-      $(".nameOfCity").text(`You requested inofrmation on ${response.name}.`);
-      $(".showHumidity").text(`The humidity in ${city} is ${response.main.humidity}%`);
-      $(".showTemp").text(
-        `The temperature in Kelvins is temp ${temp(response.main.temp)}degrees Fahrenheit.`
-      );
+      $(".nameOfCity").text(`You requested information on ${response.name}.`);
+      $(".showHumidity").text(`The humidity in ${zipcode} is ${response.main.humidity}%`);
+      $(".showTemp").text(`The temperature in fahrenheit is  ${temp(response.main.temp)} degrees.`);
     }
   });
 });
