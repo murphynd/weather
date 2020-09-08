@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _OpenWeather API_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Brief description of application}, Sept 8, 2020_
 
-#### By _**{List of contributors}**_
+#### By _**Natalie Murphy, Garrett P Brown, Ophelia Swen**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{This application }_
 
 ## Setup/Installation Requirements
 
@@ -21,6 +21,12 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 ## Specs
 
 ## API
+
+- Visit https://openweathermap.org/
+- Create an account
+- Click on API Keys to gain a personal key for the program, You can use the Default key that the API provides or generate a new key with a unique name.
+- Create a .env file after download of this program
+- Place "process.env.API_KEY = YOUR KEY" in .env file
 
 ## Known Bugs
 
@@ -38,4 +44,4 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 
 _{Determine the license under which this application can be used. See below for more details on licensing.}_
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_{Natalie Murphy, Garrett P Brown, Ophelia Swen}_**
